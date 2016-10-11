@@ -1,0 +1,51 @@
+html {
+  background-color: #eee;
+}
+body {
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+header {
+  background-color: #2c3e50;
+  margin-bottom: 40px;
+  padding: 14px 0px 14px 0px;
+}
+.tagline {
+  float: right;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 8px;
+}
+.logo {
+  float: left;
+  color: #fff;
+  margin: 0;
+  font-size: 34px;
+  font-family: 'Roboto Slab', serif;
+}
+.logo .fa {
+  position: relative;
+  top: 7px;
+  margin-right: 20px;
+}
+.logo-text {
+  position: relative;
+  top: -2px;
+}
+.fa {
+  float: left;
+  width: 26px;
+  position: relative;
+  top: 2px;
+}
+.search-form {
+  margin-top:-5px;
+}
+.search-input {
+  padding: 6px;
+  width: 306px;
+  border: 1px solid #aaa;
+}
