@@ -12,10 +12,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-    <!-- Homebase style -->
+    <!-- Homebase styles -->
     <link rel="stylesheet" type="text/css" href="homebase.css">
 
-    <!-- Roboto font -->
+    <!-- Roboto & Roboto Slab font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
 
   </head>
@@ -25,64 +25,76 @@
       <div class="container">
         <div class="logo"><i class="fa fa-paper-plane" aria-hidden="true"></i> <span class="logo-text">homebase</span></div>
         <span class="tagline">
-          <i>A faster way to manage workflow</i>
+          <i>A faster way to manage your workflow<span style="color:#008bc7;">.</span></i>
         </span>
       </div>
     </header>
 
     <div class="container">
-      <div class="row" style="margin-bottom: 60px;">
 
+      <div class="row search">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2>Google Search</h2>
-            <form method="get" action="http://www.google.com/search" class="search-form">
+            <h2>Search</h2>
+            <form method="get" action="http://www.google.com/search" class="search-form" target="_blank" rel="noreferrer">
               <div class="form-group">
-                <input type="text" class="search-input" name="q" size="25" style="border-radius:0; float:left; color:#808080; max-width:360px; display:inline;" maxlength="255" value=""/>
-                <button type="submit" class="btn btn-success" style="float:left; border-radius:0;" value="Go!"><i class="fa fa-search" style="padding-bottom:6px;" aria-hidden="true"></i></button>
+                <input placeholder="Google search" type="text" class="search-input" name="q" size="25" style="border-radius:0; float:left; color:#808080; max-width:360px; display:inline;" maxlength="255" value=""/>
+                <button type="submit" class="btn btn-silverstripe" style="float:left; border-radius:0;" value="Go!"><i class="fa fa-search" style="padding-bottom:6px;" aria-hidden="true"></i></button>
               </div>
             </form>
           </div>
-
       </div>
+
       <div class="row">
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="list-group-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h3>SilverStripe</h3>
           <div class="list-group">
-            <a class="list-group-item" href="https://docs.silverstripe.org/en/3.2/" target="_blank">SilverStripe developer documentation</a>
-            <a class="list-group-item" href="https://api.silverstripe.org/3.2/" target="_blank">SilverStripe API documentation</a>
+            <a class="list-group-item" href="https://wiki.wgtn.cat-it.co.nz/wiki/SilverStripe" target="_blank" rel="noreferrer">SilverStripe team wiki</a>
+            <a class="list-group-item" href="https://docs.silverstripe.org/en/3.2/" target="_blank" rel="noreferrer">SilverStripe developer documentation</a>
+            <a class="list-group-item" href="https://api.silverstripe.org/3.2/" target="_blank" rel="noreferrer">SilverStripe API documentation</a>
+            <a class="list-group-item" href="https://www.silverstripe.org/community/forums/" target="_blank" rel="noreferrer">SilverStripe forums</a>
+            <a class="list-group-item" href="https://github.com/silverstripe" target="_blank" rel="noreferrer">SilverStripe Github</a>
+            <a class="list-group-item" href="https://www.silverstripe.org/download" target="_blank" rel="noreferrer">SilverStripe download</a>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="list-group-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h3>Tools</h3>
           <div class="list-group">
-            <a class="list-group-item" href="https://placehold.it/" target="_blank"><i class="fa fa-picture-o" aria-hidden="true"></i> Placehold it</a>
-            <a class="list-group-item" href="https://getbootstrap.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Bootstrap</a>
-            <a class="list-group-item" href="http://fontawesome.io/icons/" target="_blank"><i class="fa fa-font-awesome" aria-hidden="true"></i> Font awesome</a>
-            <a class="list-group-item" href="https://icomoon.io/" target="_blank"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Icomoon</a>
-            <a class="list-group-item" href="http://www.favicon.cc/" target="_blank"><i class="fa fa-star" aria-hidden="true"></i> Favicon</a>
+            <a class="list-group-item" href="https://placehold.it/" target="_blank" rel="noreferrer"><i class="fa fa-picture-o" aria-hidden="true"></i> Placehold it</a>
+            <a class="list-group-item" href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i> Bootstrap</a>
+            <a class="list-group-item" href="http://codeguide.co/" target="_blank" rel="noreferrer"><i class="fa fa-info" aria-hidden="true"></i>Code Guide by @mdo</a>
+            <a class="list-group-item" href="http://fontawesome.io/icons/" target="_blank" rel="noreferrer"><i class="fa fa-font-awesome" aria-hidden="true"></i> Font awesome</a>
+            <a class="list-group-item" href="https://icomoon.io/" target="_blank" rel="noreferrer"><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Icomoon</a>
+            <a class="list-group-item" href="http://www.favicon.cc/" target="_blank" rel="noreferrer"><i class="fa fa-star" aria-hidden="true"></i> Favicon</a>
+            <a class="list-group-item" href="https://flatuicolors.com/" target="_blank" rel="noreferrer"><i class="fa fa-hashtag" aria-hidden="true"></i> Flat ui colors</a>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="list-group-container col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h3>Personal</h3>
           <div class="list-group">
-            <a class="list-group-item" href="http://www.gmail.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i> Gmail</a>
-            <a class="list-group-item" href="http://www.hotmail.com/" target="_blank"><i class="fa fa-windows" aria-hidden="true"></i> Hotmail</a>
+            <a class="list-group-item" href="http://www.gmail.com/" target="_blank" rel="noreferrer"><i class="fa fa-google" aria-hidden="true"></i> Gmail</a>
+            <a class="list-group-item" href="http://www.hotmail.com/" target="_blank" rel="noreferrer"><i class="fa fa-windows" aria-hidden="true"></i> Hotmail</a>
+            <a class="list-group-item" href="https://github.com/soulrolll" target="_blank" rel="noreferrer"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+            <a class="list-group-item" href="https://bitbucket.org/" target="_blank" rel="noreferrer"><i class="fa fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
+            <a class="list-group-item" href="https://www.reddit.com/r/web_design/" target="_blank" rel="noreferrer"><i class="fa fa-reddit-alien" aria-hidden="true"></i> Web Design Reddit</a>
+            <a class="list-group-item" href="https://www.digitalocean.com/community/tutorials" target="_blank" rel="noreferrer"><i class="fa fa-ship" aria-hidden="true"></i> Digital Ocean tutorials</a>
           </div>
         </div>
 
-      </div>
-
     </div>
+
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- Custom jquery -->
+    <!-- JQuery Match Height -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+
+    <!-- Custom JQuery -->
     <script src="main.js"></script>
 
   </body>

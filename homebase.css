@@ -2,22 +2,24 @@ html {
   background-color: #eee;
 }
 body {
-  background-color: transparent;
   font-family: 'Roboto', sans-serif;
+  background-color: transparent;
 }
 h2, h3 {
   font-family: 'Roboto Slab', serif;
+  color: #323949;
 }
 header {
-  background-color: #2c3e50;
+  background-color: #232730;
   margin-bottom: 40px;
   padding: 14px 0px 14px 0px;
+  border-bottom:1px solid #fff;
 }
 .tagline {
   float: right;
   color: #fff;
-  font-size: 22px;
-  margin-top: 8px;
+  font-size: 18px;
+  margin-top: 11px;
 }
 .logo {
   float: left;
@@ -30,10 +32,11 @@ header {
   position: relative;
   top: 7px;
   margin-right: 20px;
+  color:#008bc7;
 }
 .logo-text {
   position: relative;
-  top: -2px;
+  top: -3px;
 }
 .fa {
   float: left;
@@ -41,11 +44,75 @@ header {
   position: relative;
   top: 2px;
 }
+.search {
+  margin-bottom: 40px;
+}
 .search-form {
   margin-top:-5px;
 }
 .search-input {
-  padding: 6px;
-  width: 306px;
-  border: 1px solid #aaa;
+  padding: 10px;
+  width: 310px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.btn-silverstripe {
+  padding: 10px;
+  background-color: #008bc7;
+  color:#fff;
+}
+.btn-silverstripe:hover {
+  background-color: #0096D6;
+  color:#fff;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .search-input {
+    width: 245px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .search-input {
+    width: 296px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .logo .fa {
+    float: none;
+    margin-right: 10px;
+    top: 0;
+  }
+  .tagline {
+    display: none;
+  }
+  header {
+    margin-bottom: 15px;
+  }
+  .search {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width : 400px) {
+  .search-input {
+    width: 100%;
+  }
+  .btn-silverstripe {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-silverstripe .fa {
+    float: none;
+  }
+}
+@media only screen and (max-width : 370px) {
+  h2,h3 {
+    text-align: center;
+  }
 }
